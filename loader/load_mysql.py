@@ -68,4 +68,3 @@ if __name__ == "__main__":
 
     loader = DataLoader()
     loader.store_minute_data(market_type="kosdaq", minute=1)
-    print(loader.get_specific_date('minute_data', '20210113'))
